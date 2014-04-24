@@ -1,0 +1,170 @@
+# depslib dependency file v1.0
+1398379597 source:d:\git\consoleaudioplayer\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<SFML/Audio.hpp>
+	"string_utils.h"
+	<windows.h>
+	<fstream>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374390132 d:\sdks\sfml-2.1\include\sfml\config.hpp
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368099372 d:\sdks\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\thread.inl
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372053422 d:\sdks\sfml-2.1\include\sfml\system\utf.inl
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\vector2.inl
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1367997281 d:\sdks\sfml-2.1\include\sfml\system\vector3.inl
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1367997278 d:\sdks\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1398372192 d:\git\consoleaudioplayer\string_utils.h
+	<iostream>
+	<vector>
+	<string>
+	<sstream>
+
