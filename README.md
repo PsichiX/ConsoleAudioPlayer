@@ -1,4 +1,4 @@
 ConsoleAudioPlayer
 ==================
 
-Because GUI is too simple to use
+Because using GUI is too mainstream
