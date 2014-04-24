@@ -39,7 +39,7 @@ void loadPlaylist()
         f.close();
 }
 
-void savePlayList()
+void savePlaylist()
 {
     std::ofstream f( "playlist.dat" );
     if( f.good() )
@@ -167,14 +167,11 @@ int main()
         if( action == "exit" )
             break;
         else if( action == "help" || action == "?" )
-        {
             mode = -1;
-            continue;
-        }
-        if( mode == 0 )
+        else if( mode == 0 )
             processPlaylist( action );
     }
     stopPlaying();
-    savePlayList();
+    savePlaylist();
     return 0;
 }
