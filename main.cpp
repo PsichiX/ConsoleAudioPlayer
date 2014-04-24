@@ -105,6 +105,8 @@ void displayHelp()
     std::cout << "remove <index> - remove track at <index>" << std::endl;
     std::cout << "play <index> - play track at <index>" << std::endl;
     std::cout << "stop - stop playing track" << std::endl;
+    std::cout << "pause - pause current track" << std::endl;
+    std::cout << "resume - resume current track" << std::endl;
 }
 
 void processPlaylist( const std::string& action )
@@ -133,6 +135,16 @@ void processPlaylist( const std::string& action )
         unsigned int vb = MAXDWORD;
         ss >> vb;
         startPlaying( vb );
+    }
+    else if( cmds[ 0 ] == "pause" && cmds.size() >= 1 )
+    {
+        if( music && music->getStatus() == sf::SoundStream::Playing )
+            music->pause();
+    }
+    else if( cmds[ 0 ] == "resume" && cmds.size() >= 1 )
+    {
+        if( music && music->getStatus() == sf::SoundStream::Paused )
+            music->play();
     }
     else if( cmds[ 0 ] == "stop" && cmds.size() >= 1 )
     {
